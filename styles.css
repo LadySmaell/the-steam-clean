@@ -9,3 +9,14 @@
 .review-card a:hover {
     text-decoration: underline;
 }
+.hall-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 950px) {
+    .hall-grid {
+        grid-template-columns: 1fr;
+    }
+}
