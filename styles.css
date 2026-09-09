@@ -48,3 +48,17 @@ p {
     margin-bottom: 24px;
     line-height: 1.8;
 }
+
+/* Steam Clean category pages */
+.strip a { color: inherit; text-decoration: none; }
+.strip a:hover { text-decoration: underline; }
+.category-hero h1 { margin-bottom: 32px; }
+.category-summary { max-width: 760px; }
+.category-summary h2 { margin: 24px 0 12px; }
+.category-example h3 { margin: 20px 0 10px; }
+.category-example p { color: var(--muted); line-height: 1.6; }
+.category-example strong { color: var(--acid); }
+.clean-navigation h2 { margin-bottom: 20px; }
+.clean-navigation .button { margin-top: 24px; }
+@media (max-width: 950px) { .category-grid { grid-template-columns: repeat(2,1fr); } }
+@media (max-width: 650px) { .category-grid { grid-template-columns: 1fr; } }
