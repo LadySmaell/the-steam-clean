@@ -99,3 +99,8 @@ summary::before {
 details[open] summary::before {
     content: "▼ ";
 }
+#current-challenge img {
+    width: 100%;
+    border-radius: 12px;
+    margin: 20px 0;
+}
