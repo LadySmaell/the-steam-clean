@@ -104,3 +104,10 @@ img {
     border-radius: 12px;
     margin: 20px 0;
 }
+.challenge-banner {
+    width: 60%;
+    border-radius: 16px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid var(--line);
+}
