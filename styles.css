@@ -70,3 +70,32 @@ summary {
     color: var(--acid);
     margin: 20px 0;
 }
+details {
+    margin: 30px 0;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--panel);
+    overflow: hidden;
+}
+
+summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 18px 24px;
+    font-family: 'Space Grotesk';
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--acid);
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::before {
+    content: "▶ ";
+}
+
+details[open] summary::before {
+    content: "▼ ";
+}
