@@ -62,3 +62,11 @@ p {
 .clean-navigation .button { margin-top: 24px; }
 @media (max-width: 950px) { .category-grid { grid-template-columns: repeat(2,1fr); } }
 @media (max-width: 650px) { .category-grid { grid-template-columns: 1fr; } }
+summary {
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    color: var(--acid);
+    margin: 20px 0;
+}
