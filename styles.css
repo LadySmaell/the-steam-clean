@@ -111,3 +111,15 @@ img {
     display: block;
     border: 1px solid var(--line);
 }
+ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+h3 {
+    margin-top: 30px;
+}
