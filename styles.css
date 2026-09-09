@@ -100,7 +100,7 @@ details[open] summary::before {
     content: "▼ ";
 }
 #current-challenge img {
-    width: 70%;
+    width: 20%;
     border-radius: 12px;
     margin: 20px 0;
 }
