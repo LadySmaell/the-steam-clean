@@ -16,9 +16,9 @@
   },
   {
     "name": "1000xRESIST",
-    "achievements": "1/32",
+    "achievements": "0/32",
     "achievementPercentage": 0,
-    "completed": true,
+    "completed": false,
     "completionNote": "",
     "mainStoryHours": 11.0,
     "mainExtrasHours": 13.0,
