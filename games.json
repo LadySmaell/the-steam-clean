@@ -1,9 +1,9 @@
 [
   {
     "name": "100% Orange Juice",
-    "achievements": "8/359",
+    "achievements": "2/359",
     "achievementPercentage": 0.005571030641,
-    "completed": true,
+    "completed": false,
     "completionNote": "N/A",
     "mainStoryHours": 10.5,
     "mainExtrasHours": 18.5,
