@@ -4,9 +4,7 @@
 
 let games = [];
 
-let STATS = {
-    achObtained: 924 // Keep this manual for now
-};
+let STATS = {};
 
 let shown = 24;
 
@@ -42,12 +40,36 @@ fetch("games.json")
         STATS.completed =
             games.filter(game => game.completed).length;
 
-        STATS.gamePct =
-            STATS.completed / STATS.total;
+STATS.gamePct =
+    STATS.completed / STATS.total;
 
-        init();
-    });
+// Calculate achievement totals
 
+STATS.achObtained = 0;
+
+games.forEach(game => {
+
+    const achievementText = game.achievements;
+
+    if (
+        typeof achievementText === "string" &&
+        achievementText.includes("/")
+    ) {
+
+        const parts =
+            achievementText.split("/");
+
+        const earned =
+            parseInt(parts[0]);
+
+        if (!isNaN(earned)) {
+
+            STATS.achObtained += earned;
+        }
+    }
+});
+
+init();
 // --------------------
 // Initial Setup
 // --------------------
