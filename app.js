@@ -98,6 +98,7 @@ function updateStatistics() {
     $("#pctStat").textContent = gamePercentage.toFixed(1) + "%";
     $("#progressBar").style.width = Math.min(gamePercentage, 100) + "%";
     $("#achievementStat").textContent = achievementsObtained.toLocaleString();
+    $("#achievementPctStat").textContent = achievementPercentage.toFixed(1) + "%";
     $("#hoursStat").textContent = Math.round(plannedHours).toLocaleString();
 
     console.log("Steam Clean statistics", {
