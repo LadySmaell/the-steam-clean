@@ -1,6 +1,20 @@
-const STATS={"completed": 60, "total": 749, "gamePct": 0.08010680908, "achObtained": 924, "achTotal": 30826, "achPct": 0.02997469668}; let games=[]; let shown=24;
+let games=[]; lets STATS{}; let shown=24;
 const $=s=>document.querySelector(s); const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
-fetch('games.json').then(r=>r.json()).then(data=>{games=data;init();});
+fetch('games.json')
+    .then(r => r.json())
+    .then(data => {
+        games = data;
+
+        STATS.total = games.length;
+
+        STATS.completed =
+            games.filter(g => g.completed).length;
+
+        STATS.gamePct =
+            STATS.completed / STATS.total;
+
+        init();
+    });
 function init(){ $('#completedStat').textContent=STATS.completed;$('#totalStat').textContent=STATS.total;$('#pctStat').textContent=(STATS.gamePct*100).toFixed(1)+'%';$('#progressBar').style.width=(STATS.gamePct*100)+'%';$('#achievementStat').textContent=STATS.achObtained.toLocaleString();
 const planned=games.reduce((a,g)=>a+(g.recommendedHours||0),0);$('#hoursStat').textContent=Math.round(planned).toLocaleString();
 fill('#sizeFilter',[...new Set(games.map(g=>g.size))].sort()); fill('#typeFilter',[...new Set(games.map(g=>g.type))].sort()); render();}
