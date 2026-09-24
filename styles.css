@@ -142,3 +142,35 @@ h3 {
     background:transparent;
     color:var(--ink);
 }
+.back-nav {
+    text-align: center;
+    margin: 60px 0 40px;
+}
+
+.back-button {
+    background: linear-gradient(135deg, var(--acid), var(--mint));
+    color: #111;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 12px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 6px 20px rgba(139, 92, 246, 0.3);
+}
+
+.back-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(139, 92, 246, 0.45);
+}
+
+.back-button:active {
+    transform: translateY(0);
+}
+
+.back-button:focus {
+    outline: 2px solid var(--mint);
+    outline-offset: 3px;
+}
