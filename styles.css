@@ -174,3 +174,56 @@ h3 {
     outline: 2px solid var(--mint);
     outline-offset: 3px;
 }
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.social-button {
+    display: inline-block;
+    padding: 14px 24px;
+    border-radius: 12px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    border: 1px solid var(--line);
+    color: var(--ink);
+}
+
+.social-button:hover {
+    transform: translateY(-3px);
+    text-decoration: none;
+}
+
+/* Platform colours */
+.youtube {
+    background: linear-gradient(135deg, #FF0000, #FF5757);
+    color: white;
+}
+
+.twitch {
+    background: linear-gradient(135deg, #9146FF, #BF94FF);
+    color: white;
+}
+
+.github {
+    background: linear-gradient(135deg, #24292F, #57606A);
+    color: white;
+}
+
+/* Optional glow effects */
+.youtube:hover {
+    box-shadow: 0 10px 25px rgba(255, 0, 0, 0.35);
+}
+
+.twitch:hover {
+    box-shadow: 0 10px 25px rgba(145, 70, 255, 0.35);
+}
+
+.github:hover {
+    box-shadow: 0 10px 25px rgba(87, 96, 106, 0.35);
+}
