@@ -94,48 +94,7 @@ renderVerdictSection(
     "Skip"
 );
 
-   const archiveContainer =
-    document.getElementById("reviewArchive");
 
-archiveContainer.innerHTML = "";
-
-reviews.forEach(review => {
-
-    archiveContainer.innerHTML += `
-
-        <article class="archive-card">
-
-            <span class="tag">
-                ${review.verdict}
-            </span>
-
-            <h3>
-                <a href="${review.url}">
-                    ${review.title}
-                </a>
-            </h3>
-
-            <ul class="review-meta">
-                <li>🎮 ${review.genre}</li>
-                <li>⏱ ${review.size}</li>
-                <li>🏆 ${review.achievements}</li>
-                <li>📅 ${
-    new Date(review.published)
-        .toLocaleDateString(
-            "en-GB",
-            {
-                month: "long",
-                year: "numeric"
-            }
-        )
-}}</li>
-            </ul>
-
-        </article>
-
-    `;
-
-});
 
 const verdictCounts = {
     Essential: 0,
