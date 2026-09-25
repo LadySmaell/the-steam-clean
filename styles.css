@@ -385,3 +385,12 @@ h3 {
         min-height: 230px;
     }
 }
+.archive-section h2 {
+margin: 50px 0 20px;
+color: var(--acid);
+font-size: 2rem;
+}
+ 
+.archive-section h2:first-of-type {
+margin-top: 0;
+}
