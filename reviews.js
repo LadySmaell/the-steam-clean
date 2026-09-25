@@ -13,6 +13,13 @@ fetch("reviews.json")
 
     const container =
         document.getElementById(containerId);
+            const section =
+    document.getElementById(
+        containerId.replace(
+            "Reviews",
+            "Section"
+        )
+    );
 
     if (!container) {
         return;
