@@ -5,6 +5,30 @@ fetch("reviews.json")
         const latest =
             reviews.find(review => review.featured)
             || reviews[0];
+        document.getElementById("testReviewCard").innerHTML = `
+
+    <article class="archive-card">
+
+        <span class="tag">
+            ${reviews[0].verdict}
+        </span>
+
+        <h3>
+            <a href="${reviews[0].url}">
+                ${reviews[0].title}
+            </a>
+        </h3>
+
+        <ul class="review-meta">
+            <li>🎮 ${reviews[0].genre}</li>
+            <li>⏱ ${reviews[0].size}</li>
+            <li>🏆 ${reviews[0].achievements}</li>
+            <li>📅 ${reviews[0].published}</li>
+        </ul.
+
+    </article>
+
+`;
 const verdictCounts = {
     Essential: 0,
     Outstanding: 0,
