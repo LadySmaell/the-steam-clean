@@ -422,3 +422,41 @@ margin-top: 0;
     color: var(--acid);
     font-weight: 700;
 }
+.review-summary {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 12px;
+    margin: 40px 0 60px;
+}
+
+.review-summary-card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.review-summary-card strong {
+    display: block;
+    font-size: 2rem;
+    color: var(--acid);
+    margin-bottom: 6px;
+}
+
+.review-summary-card span {
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+@media(max-width:950px) {
+    .review-summary {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(max-width:650px) {
+    .review-summary {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
