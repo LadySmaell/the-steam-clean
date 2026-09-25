@@ -473,12 +473,16 @@ margin-top: 0;
 
     padding: 16px 20px;
 
-    max-width: 700px;
+    max-width: 600px;
 
     margin: 0 auto;
 }
 
 .latest-review-card h3 {
-    margin: 12px 0;
-    font-size: 1.4rem;
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+.latest-review {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
