@@ -6,6 +6,63 @@ fetch("reviews.json")
             reviews.find(review => review.featured)
             || reviews[0];
 
+        function renderVerdictSection(
+    containerId,
+    verdictLabel
+) {
+
+    const container =
+        document.getElementById(containerId);
+
+    if (!container) {
+        return;
+    }
+
+    container.innerHTML = "";
+
+    reviews
+        .filter(
+            review =>
+                review.verdict === verdictLabel
+        )
+        .forEach(review => {
+
+            const reviewDate =
+                new Date(review.published)
+                    .toLocaleDateString(
+                        "en-GB",
+                        {
+                            month: "long",
+                            year: "numeric"
+                        }
+                    );
+
+            container.innerHTML += `
+
+                <article class="archive-card">
+
+                    <span class="tag">
+                        ${review.verdict}
+                    </span>
+
+                    <h3>
+                        <a href="${review.url}">
+                            ${review.title}
+                        </a>
+                    </h3>
+
+                    <ul class="review-meta">
+                        <li>🎮 ${review.genre}</li>
+                        <li>⏱ ${review.size}</li>
+                        <li>🏆 ${review.achievements}</li>
+                        <li>📅 ${reviewDate}</li>
+                    </ul>
+
+                </article>
+
+            `;
+        });
+}
         const outstandingContainer =
     document.getElementById("outstandingReviews");
 
