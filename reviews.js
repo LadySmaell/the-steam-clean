@@ -5,7 +5,42 @@ fetch("reviews.json")
         const latest =
             reviews.find(review => review.featured)
             || reviews[0];
+const verdictCounts = {
+    Essential: 0,
+    Outstanding: 0,
+    Recommended: 0,
+    Good: 0,
+    Mixed: 0,
+    Skip: 0
+};
 
+reviews.forEach(review => {
+
+    if (verdictCounts[review.verdict] !== undefined) {
+
+        verdictCounts[review.verdict]++;
+
+    }
+
+});
+
+document.getElementById("essentialCount").textContent =
+    verdictCounts.Essential;
+
+document.getElementById("outstandingCount").textContent =
+    verdictCounts.Outstanding;
+
+document.getElementById("recommendedCount").textContent =
+    verdictCounts.Recommended;
+
+document.getElementById("goodCount").textContent =
+    verdictCounts.Good;
+
+document.getElementById("mixedCount").textContent =
+    verdictCounts.Mixed;
+
+document.getElementById("skipCount").textContent =
+    verdictCounts.Skip;
         const reviewDate =
             new Date(latest.published)
                 .toLocaleDateString(
