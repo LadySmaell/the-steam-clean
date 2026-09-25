@@ -25,7 +25,7 @@ fetch("reviews.json")
                 </span>
 
                 <h3>
-                    ${latest.url}
+                    <a href ="${latest.url}">
                         ${latest.title}
                     </a>
                 </h3>
@@ -37,11 +37,11 @@ fetch("reviews.json")
                     <li>📅 ${reviewDate}</li>
                 </ul>
 
-                ${latest.url}
-
-                    Read Latest Review →
-
-                </a>
+<a
+href="${latest.url}"
+class="archive-card-link">
+Read Latest Review →
+</a>
 
             </div>
 
