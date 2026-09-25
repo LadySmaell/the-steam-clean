@@ -11,7 +11,7 @@ fetch("reviews.json")
 
         function renderVerdictSection(
     containerId,
-    verdictLabel
+    verdictLabel,
     reviewList = reviews
 ) {
 
