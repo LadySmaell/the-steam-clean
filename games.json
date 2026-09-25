@@ -11266,10 +11266,10 @@
   },
   {
     "name": "Venba",
-    "achievements": "0/15",
+    "achievements": "11/15",
     "achievementPercentage": 0,
-    "completed": false,
-    "completionNote": "",
+    "completed": true,
+    "completionNote": "Short but beautiful story about an immigrant family told through the cuisine of the culture. Resonated more with me than I thought.",
     "mainStoryHours": 1.5,
     "mainExtrasHours": 1.5,
     "completionistHours": 2.0,
