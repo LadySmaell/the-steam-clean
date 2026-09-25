@@ -418,3 +418,7 @@ margin-top: 0;
     padding-top: 16px;
     margin-top: 20px;
 }
+.achievement-line {
+    color: var(--acid);
+    font-weight: 700;
+}
