@@ -12,6 +12,7 @@ fetch("reviews.json")
         function renderVerdictSection(
     containerId,
     verdictLabel
+    reviewList = reviews
 ) {
 
     const container =
@@ -24,7 +25,7 @@ fetch("reviews.json")
         )
     );
 const matchingReviews =
-    reviews.filter(
+    reviewList.filter(
         review =>
             review.verdict === verdictLabel
     );
@@ -88,31 +89,37 @@ matchingReviews.forEach(review => {
 renderVerdictSection(
     "outstandingReviews",
     "Outstanding"
+    reviewList
 );
 
 renderVerdictSection(
     "essentialReviews",
     "Essential"
+    reviewList
 );
 
 renderVerdictSection(
     "recommendedReviews",
     "Recommended"
+    reviewList
 );
 
 renderVerdictSection(
     "goodReviews",
     "Good"
+    reviewList
 );
 
 renderVerdictSection(
     "mixedReviews",
     "Mixed"
+    reviewList
 );
 
 renderVerdictSection(
     "skipReviews",
     "Skip"
+    reviewList
 );
 
 
