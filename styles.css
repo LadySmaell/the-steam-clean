@@ -406,7 +406,10 @@ margin-top: 0;
     font-size: 0.9rem;
     margin-bottom: 8px;
 }
-
+.achievement-line {
+    color: var(--acid);
+    font-weight: 700;
+}
 .review-meta li:last-child {
     margin-bottom: 0;
 }
