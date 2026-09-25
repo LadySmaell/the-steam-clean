@@ -6,6 +6,9 @@ fetch("reviews.json")
             reviews.find(review => review.featured)
             || reviews[0];
 
+        document.getElementById("reviewTotal").textContent =
+    reviews.length;
+
         function renderVerdictSection(
     containerId,
     verdictLabel
