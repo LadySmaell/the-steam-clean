@@ -31,7 +31,7 @@ reviews.forEach(review => {
                 <li>🎮 ${review.genre}</li>
                 <li>⏱ ${review.size}</li>
                 <li>🏆 ${review.achievements}</li>
-                <li>📅 ${📅 ${
+                <li>📅 ${
     new Date(review.published)
         .toLocaleDateString(
             "en-GB",
