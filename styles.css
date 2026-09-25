@@ -461,36 +461,24 @@ margin-top: 0;
     }
 }
 .latest-review-card {
-
     background: linear-gradient(
         145deg,
-        rgba(139, 92, 246, 0.12),
+        rgba(139, 92, 246, 0.1),
         var(--panel)
     );
 
     border: 1px solid var(--line);
 
-    border-radius: 20px;
+    border-radius: 16px;
 
-    padding: 30px;
+    padding: 20px 24px;
 
-    max-width: 900px;
+    max-width: 700px;
 
     margin: 0 auto;
-
-    transition: .2s ease;
-}
-
-.latest-review-card:hover {
-
-    border-color: var(--acid);
-
-    transform: translateY(-3px);
 }
 
 .latest-review-card h3 {
-
-    margin: 20px 0 10px;
-
-    font-size: 2rem;
+    margin: 12px 0;
+    font-size: 1.4rem;
 }
