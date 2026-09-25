@@ -68,6 +68,32 @@ renderVerdictSection(
     "outstandingReviews",
     "Outstanding"
 );
+
+renderVerdictSection(
+    "essentialReviews",
+    "Essential"
+);
+
+renderVerdictSection(
+    "recommendedReviews",
+    "Recommended"
+);
+
+renderVerdictSection(
+    "goodReviews",
+    "Good"
+);
+
+renderVerdictSection(
+    "mixedReviews",
+    "Mixed"
+);
+
+renderVerdictSection(
+    "skipReviews",
+    "Skip"
+);
+
    const archiveContainer =
     document.getElementById("reviewArchive");
 
