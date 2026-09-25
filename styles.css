@@ -413,3 +413,8 @@ margin-top: 0;
 .review-meta li:last-child {
     margin-bottom: 0;
 }
+.review-meta {
+    border-top: 1px solid var(--line);
+    padding-top: 16px;
+    margin-top: 20px;
+}
