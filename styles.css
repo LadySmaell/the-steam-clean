@@ -394,3 +394,15 @@ font-size: 2rem;
 .archive-section h2:first-of-type {
 margin-top: 0;
 }
+
+.review-meta {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.review-meta li {
+    margin-bottom: 6px;
+    color: var(--muted);
+    font-size: 0.9rem;
+}
