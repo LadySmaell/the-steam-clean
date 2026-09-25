@@ -29,7 +29,9 @@ const matchingReviews =
         review =>
             review.verdict === verdictLabel
     );
-
+if (section) {
+    section.style.display = "";
+}
 if (
     matchingReviews.length === 0
 ) {
@@ -86,42 +88,45 @@ matchingReviews.forEach(review => {
         });
 }
      
-renderVerdictSection(
-    "outstandingReviews",
-    "Outstanding"
-    reviewList
-);
+function renderAllVerdictSections(reviewList = reviews) {
+    renderVerdictSection(
+        "essentialReviews",
+        "Essential",
+        reviewList
+    );
 
-renderVerdictSection(
-    "essentialReviews",
-    "Essential"
-    reviewList
-);
+    renderVerdictSection(
+        "outstandingReviews",
+        "Outstanding",
+        reviewList
+    );
 
-renderVerdictSection(
-    "recommendedReviews",
-    "Recommended"
-    reviewList
-);
+    renderVerdictSection(
+        "recommendedReviews",
+        "Recommended",
+        reviewList
+    );
 
-renderVerdictSection(
-    "goodReviews",
-    "Good"
-    reviewList
-);
+    renderVerdictSection(
+        "goodReviews",
+        "Good",
+        reviewList
+    );
 
-renderVerdictSection(
-    "mixedReviews",
-    "Mixed"
-    reviewList
-);
+    renderVerdictSection(
+        "mixedReviews",
+        "Mixed",
+        reviewList
+    );
 
-renderVerdictSection(
-    "skipReviews",
-    "Skip"
-    reviewList
-);
+    renderVerdictSection(
+        "skipReviews",
+        "Skip",
+        reviewList
+    );
+}
 
+renderAllVerdictSections();
 
 
 const verdictCounts = {
