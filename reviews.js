@@ -5,7 +5,7 @@ fetch("reviews.json")
         const latest =
             reviews.find(review => review.featured)
             || reviews[0];
-
+a
         function renderVerdictSection(
     containerId,
     verdictLabel
@@ -20,19 +20,30 @@ fetch("reviews.json")
             "Section"
         )
     );
+const matchingReviews =
+    reviews.filter(
+        review =>
+            review.verdict === verdictLabel
+    );
 
+if (
+    matchingReviews.length === 0
+) {
+
+    if (section) {
+        section.style.display = "none";
+    }
+
+    return;
+
+}      
     if (!container) {
         return;
     }
 
-    container.innerHTML = "";
+container.innerHTML = "";
 
-    reviews
-        .filter(
-            review =>
-                review.verdict === verdictLabel
-        )
-        .forEach(review => {
+matchingReviews.forEach(review => {
 
             const reviewDate =
                 new Date(review.published)
