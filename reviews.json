@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Venba",
+    "verdict": "Outstanding",
+    "genre": "Narrative Adventure",
+    "size": "Quick Clean",
+    "achievements": "11 / 11",
+    "published": "2026-09-25",
+    "url": "reviews/venba.html",
+    "featured": true
+  },
+  {
+    "title": "Killer Frequency",
+    "verdict": "Outstanding",
+    "genre": "Horror Adventure",
+    "size": "Weekend Clean",
+    "achievements": "18 / 27",
+    "published": "2026-09-20",
+    "url": "reviews/killerfrequency.html",
+    "featured": false
+  },
+  {
+    "title": "Mr Sleepy Man",
+    "verdict": "Outstanding",
+    "genre": "Platformer",
+    "size": "Weekend Clean",
+    "achievements": "28 / 64",
+    "published": "2026-09-15",
+    "url": "reviews/mrsleepyman.html",
+    "featured": false
+  },
+  {
+    "title": "Evo/Wave",
+    "verdict": "Outstanding",
+    "genre": "Precision Platformer",
+    "size": "Quick Clean",
+    "achievements": "16 / 30",
+    "published": "2026-09-10",
+    "url": "reviews/evowave.html",
+    "featured": false
+  },
+  {
+    "title": "Guacamelee! STCE",
+    "verdict": "Essential",
+    "genre": "Metroidvania",
+    "size": "Weekend Clean",
+    "achievements": "47 / 60",
+    "published": "2026-08-20",
+    "url": "reviews/guacamelee.html",
+    "featured": false
+  },
+  {
+    "title": "Worldless",
+    "verdict": "Essential",
+    "genre": "Action Platformer / Metroidvania",
+    "size": "Weekend Clean",
+    "achievements": "24 / 24",
+    "published": "2026-08-10",
+    "url": "reviews/worldless.html",
+    "featured": false
+  }
+]
