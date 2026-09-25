@@ -64,7 +64,10 @@ fetch("reviews.json")
         });
 }
      
-
+renderVerdictSection(
+    "outstandingReviews",
+    "Outstanding"
+);
    const archiveContainer =
     document.getElementById("reviewArchive");
 
