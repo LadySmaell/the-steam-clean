@@ -5,7 +5,7 @@ fetch("reviews.json")
         const latest =
             reviews.find(review => review.featured)
             || reviews[0];
-a
+
         function renderVerdictSection(
     containerId,
     verdictLabel
