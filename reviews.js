@@ -128,6 +128,59 @@ function renderAllVerdictSections(reviewList = reviews) {
 
 renderAllVerdictSections();
 
+        const reviewSearch =
+    document.getElementById("reviewSearch");
+
+if (reviewSearch) {
+
+    reviewSearch.addEventListener(
+        "input",
+        event => {
+
+            const searchTerm =
+                event.target.value
+                    .toLowerCase()
+                    .trim();
+
+            const filteredReviews =
+                reviews.filter(review => {
+
+                    return (
+
+                        review.title
+                            .toLowerCase()
+                            .includes(searchTerm)
+
+                        ||
+
+                        review.genre
+                            .toLowerCase()
+                            .includes(searchTerm)
+
+                        ||
+
+                        review.verdict
+                            .toLowerCase()
+                            .includes(searchTerm)
+
+                        ||
+
+                        review.size
+                            .toLowerCase()
+                            .includes(searchTerm)
+
+                    );
+
+                });
+
+            renderAllVerdictSections(
+                filteredReviews
+            );
+
+        }
+    );
+
+}
 
 const verdictCounts = {
     Essential: 0,
