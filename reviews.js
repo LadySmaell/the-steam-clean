@@ -63,58 +63,7 @@ fetch("reviews.json")
             `;
         });
 }
-        const outstandingContainer =
-    document.getElementById("outstandingReviews");
-
-if (outstandingContainer) {
-
-    outstandingContainer.innerHTML = "";
-
-    reviews
-        .filter(
-            review =>
-                review.verdict === "Outstanding"
-        )
-        .forEach(review => {
-
-            const reviewDate =
-                new Date(review.published)
-                    .toLocaleDateString(
-                        "en-GB",
-                        {
-                            month: "long",
-                            year: "numeric"
-                        }
-                    );
-
-            outstandingContainer.innerHTML += `
-
-                <article class="archive-card">
-
-                    <span class="tag">
-                        ⭐ Outstanding
-                    </span>
-
-                    <h3>
-                        <a href="${review.url}">
-                            ${review.title}
-                        </a>
-                    </h3>
-
-                    <ul class="review-meta">
-                        <li>🎮 ${review.genre}</li>
-                        <li>⏱ ${review.size}</li>
-                        <li>🏆 ${review.achievements}</li>
-                        <li>📅 ${reviewDate}</li>
-                    </ul>
-
-                </article>
-
-            `;
-
-        });
-
-}
+     
 
    const archiveContainer =
     document.getElementById("reviewArchive");
