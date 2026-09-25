@@ -2,7 +2,19 @@ fetch("reviews.json")
     .then(response => response.json())
     .then(reviews => {
 
-        const latest = reviews[0];
+        const latest =
+            reviews.find(review => review.featured)
+            || reviews[0];
+
+        const reviewDate =
+            new Date(latest.published)
+                .toLocaleDateString(
+                    "en-GB",
+                    {
+                        month: "long",
+                        year: "numeric"
+                    }
+                );
 
         document.getElementById("latestReview").innerHTML = `
 
@@ -21,8 +33,8 @@ fetch("reviews.json")
                 <ul class="review-meta">
                     <li>🎮 ${latest.genre}</li>
                     <li>⏱ ${latest.size}</li>
-                    <li>🏆 ${latest.achievements}</li>
-                    <li>📅 ${latest.published}</li>
+                    <li>🏆 ${latest.achievements} Achievements</li>
+                    <li>📅 ${reviewDate}</li>
                 </ul>
 
                 ${latest.url}
@@ -33,5 +45,12 @@ fetch("reviews.json")
 
             </div>
 
+        `;
+    })
+    .catch(error => {
+        console.error(error);
+
+        document.getElementById("latestReview").innerHTML = `
+            <p>Unable to load latest review.</p>
         `;
     });
