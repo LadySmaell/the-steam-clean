@@ -45,8 +45,6 @@ document.getElementById("speedrunTable").innerHTML = `
 
 <td>
 
-       <td>
-
     ${
         run.achievement === "World Record"
             ? '<span class="speedrun-achievement wr">👑 World Record</span>'
@@ -58,7 +56,6 @@ document.getElementById("speedrunTable").innerHTML = `
     }
 
 </td>
-
             </tr>
 
         `).join("")}
