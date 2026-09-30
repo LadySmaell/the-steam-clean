@@ -19,7 +19,7 @@ document.getElementById("speedrunTable").innerHTML = `
         </tr>
     </thead>
 
-    <tbody>run.achieveme
+    <tbody>
 
         ${speedruns.map(run => `
 
