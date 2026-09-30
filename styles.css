@@ -608,3 +608,25 @@ margin-top: 0;
         grid-template-columns: 1fr;
     }
 }
+.pb-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+.pb-table th {
+    text-align: left;
+    color: var(--acid);
+    padding: 10px 0;
+    border-bottom: 1px solid var(--line);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.pb-table td {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.pb-table tr:last-child td {
+    border-bottom: none;
+}
