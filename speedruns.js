@@ -18,7 +18,7 @@ document.getElementById("speedrunTable").innerHTML = `
         </tr>
     </thead>
 
-    <tbody>
+    <tbody>run.achieveme
 
         ${speedruns.map(run => `
 
@@ -32,7 +32,15 @@ document.getElementById("speedrunTable").innerHTML = `
 
                 <td>${run.goal || "-"}</td>
 
-                <td>${run.achievement || "-"}</td>
+                <td>${
+run.achievement === "World Record"
+? '<span class="speedrun-achievement wr">👑 World Record</span>'
+: run.achievement === "2nd Place"
+? '<span class="speedrun-achievement second">🥈 2nd Place</span>'
+: run.achievement === "Top 15"
+? '<span class="speedrun-achievement top15">🏅 Top 15</span>'
+: "-"
+}</td>
 
             </tr>
 
