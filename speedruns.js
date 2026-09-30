@@ -14,6 +14,7 @@ document.getElementById("speedrunTable").innerHTML = `
             <th>Category</th>
             <th>PB</th>
             <th>Goal</th>
+            <th>Status</th>
             <th>Achievement</th>
         </tr>
     </thead>
