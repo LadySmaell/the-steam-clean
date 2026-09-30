@@ -664,3 +664,20 @@ margin-top: 0;
     );
     color: #fff;
 }
+.speedrun-status {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.speedrun-status.active {
+    background: rgba(34, 197, 94, 0.2);
+    color: #86efac;
+}
+
+.speedrun-status.learning {
+    background: rgba(59, 130, 246, 0.2);
+    color: #93c5fd;
+}
