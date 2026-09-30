@@ -680,4 +680,20 @@ margin-top: 0;
 .speedrun-status.learning {
     background: rgba(59, 130, 246, 0.2);
     color: #93c5fd;
+    .speedrun-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.speedrun-info-grid .archive-card {
+    height: 100%;
+}
+    @media (max-width: 900px) {
+
+    .speedrun-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
 }
