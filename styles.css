@@ -696,13 +696,12 @@ margin-top: 0;
     }
 
 }
-}
 .video-container {
     position: relative;
     width: 100%;
-    max-width: 700px;
+    max-width: 650px;
     margin: 20px auto;
-    padding-bottom: 39.375%;
+    padding-bottom: 36%;
     height: 0;
     overflow: hidden;
     border-radius: 16px;
