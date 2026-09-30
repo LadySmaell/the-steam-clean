@@ -31,7 +31,19 @@ document.getElementById("speedrunTable").innerHTML = `
 
                 <td>${run.pb || "-"}</td>
 
-                <td>${run.goal || "-"}</td>
+<td>${run.goal || "-"}</td>
+
+<td>
+
+    ${
+        run.status === "Active"
+            ? '<span class="speedrun-status active">🏁 Active</span>'
+            : '<span class="speedrun-status learning">🧪 Learning</span>'
+    }
+
+</td>
+
+<td>
 
        <td>
 
