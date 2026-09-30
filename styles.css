@@ -525,3 +525,17 @@ margin-top: 0;
     color: var(--muted);
     font-size: 0.9rem;
 }
+.speedrun-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin: 40px 0;
+}
+
+.speedrun-grid .section {
+    padding: 0;
+}
+
+.speedrun-grid .review-card {
+    height: 100%;
+}
