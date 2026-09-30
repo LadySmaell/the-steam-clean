@@ -539,3 +539,27 @@ margin-top: 0;
 .speedrun-grid .review-card {
     height: 100%;
 }
+.speedrun-overview {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.speedrun-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: start;
+}
+
+.speedrun-grid .review-card {
+    height: 100%;
+    margin: 0;
+}
+
+@media (max-width: 950px) {
+
+    .speedrun-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
