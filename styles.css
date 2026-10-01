@@ -713,26 +713,33 @@ margin-top: 0;
     height: 100%;
     border: 0;
 }
-blockquote {
-    margin: 24px 0;
-    padding: 16px 20px;
-    border-left: 4px solid var(--accent);
-    background: rgba(255,255,255,0.04);
-    font-style: italic;
-    border-radius: 8px;
+/* Speedrunner Thoughts */
+
+.speedrunner-thoughts {
+    margin-top: 80px;
 }
+
 .speedrunner-intro {
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto 40px;
     text-align: center;
 }
 
 .speedrunner-intro p {
+    font-size: 1.05rem;
+    line-height: 1.8;
     color: var(--muted);
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .speedrunner-intro blockquote {
+    margin: 0;
+    padding: 24px;
+    border-left: 4px solid var(--acid);
+    background: var(--panel);
+    border-radius: 12px;
+    color: var(--text);
     font-style: italic;
-    color: var(--acid);
+    font-size: 1.1rem;
+    line-height: 1.7;
 }
