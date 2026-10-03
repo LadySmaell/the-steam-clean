@@ -676,10 +676,10 @@
   },
   {
     "name": "Barro GT",
-    "achievements": "0/21",
-    "achievementPercentage": 0,
-    "completed": false,
-    "completionNote": "",
+    "achievements": "21/21",
+    "achievementPercentage": 100,
+    "completed": true,
+    "completionNote": "YES",
     "mainStoryHours": 0.5,
     "mainExtrasHours": 1.0,
     "completionistHours": 1.5,
@@ -8057,7 +8057,7 @@
   {
     "name": "Resident Evil Village",
     "achievements": "8/56",
-    "achievementPercentage": 0,
+    "achievementPercentage": 14.285,
     "completed": false,
     "completionNote": "",
     "mainStoryHours": 10.0,
