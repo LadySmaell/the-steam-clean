@@ -764,6 +764,21 @@
     "research": "Researched",
     "source": "https://howlongtobeat.com/"
   },
+    {
+    "name": "Batography,
+    "achievements": "12/12",
+    "achievementPercentage": 100,
+    "completed": true,
+    "completionNote": "Yes",
+    "mainStoryHours": 0.5,
+    "mainExtrasHours": 0.5,
+    "completionistHours": 0.5,
+    "recommendedHours": 0.5,
+    "size": "Quick Clean",
+    "type": "Story",
+    "research": "Researched",
+    "source": "https://howlongtobeat.com/"
+  },
   {
     "name": "Battle Ram",
     "achievements": "0/20",
