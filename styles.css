@@ -742,13 +742,32 @@ margin-top: 0;
     font-style: italic;
     font-size: 1.1rem;
     line-height: 1.7;
+.spooktober-banner {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+
+    background: linear-gradient(
+        135deg,
+        rgba(124,58,237,0.15),
+        rgba(255,107,0,0.08)
+    );
+
+    border: 1px solid rgba(124,58,237,0.3);
+    border-radius: 16px;
+
+    backdrop-filter: blur(8px);
 }
-    .spooktober-banner {
-  background: linear-gradient(135deg, #ff6b00, #7a1fff);
-  padding: 2rem;
-  border-radius: 16px;
-  margin: 2rem 0;
-  color: white;
+
+.spooktober-banner h2 {
+    margin-bottom: 0.75rem;
+    color: #fff;
+}
+
+.spooktober-banner p {
+    color: #d1d5db;
+    margin-bottom: 1rem;
+}
 }
 
 .spook-content {
