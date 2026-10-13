@@ -7,7 +7,7 @@
     "achievements": "11 / 11",
     "published": "2026-09-25",
     "url": "reviews/venba.html",
-    "featured": true
+    "featured": false
   },
   {
     "title": "Killer Frequency",
@@ -67,6 +67,6 @@
     "achievements": "21 / 21",
     "published": "2026-10-1",
     "url": "reviews/BarroGT.html",
-    "featured": false
+    "featured": true
   }
 ]
