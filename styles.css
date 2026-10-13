@@ -743,3 +743,33 @@ margin-top: 0;
     font-size: 1.1rem;
     line-height: 1.7;
 }
+    .spooktober-banner {
+  background: linear-gradient(135deg, #ff6b00, #7a1fff);
+  padding: 2rem;
+  border-radius: 16px;
+  margin: 2rem 0;
+  color: white;
+}
+
+.spook-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.pumpkin {
+  font-size: 3rem;
+}
+    body::after {
+  content: "🦇";
+  position: fixed;
+  top: 20%;
+  left: -50px;
+  animation: fly 15s linear infinite;
+  font-size: 2rem;
+}
+
+@keyframes fly {
+  from { left: -50px; }
+  to { left: 110%; }
+}
