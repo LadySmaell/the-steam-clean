@@ -58,5 +58,15 @@
     "published": "2026-08-10",
     "url": "reviews/worldless.html",
     "featured": false
+  },
+    {
+    "title": "Barro GT",
+    "verdict": "Good",
+    "genre": "Racing",
+    "size": "Quick Clean",
+    "achievements": "21 / 21",
+    "published": "2026-10-1",
+    "url": "reviews/BarroGT.html",
+    "featured": false
   }
 ]
