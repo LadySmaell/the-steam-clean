@@ -793,3 +793,21 @@ margin-top: 0;
   from { left: -50px; }
   to { left: 110%; }
 }
+.seasonal-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+
+    margin: 1rem 0 2rem;
+
+    padding: .75rem 1rem;
+
+    background: rgba(124, 58, 237, 0.15);
+
+    border: 1px solid rgba(124, 58, 237, 0.3);
+
+    border-radius: 999px;
+
+    color: #f8f8f8;
+    font-weight: 600;
+}
