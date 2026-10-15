@@ -67,6 +67,16 @@
     "achievements": "21 / 21",
     "published": "2026-10-1",
     "url": "reviews/BarroGT.html",
+    "featured": false
+  },
+    {
+    "title": "Blanc",
+    "verdict": "Recommended",
+    "genre": "Co-Op Narrative Adventure",
+    "size": "Quick Clean",
+    "achievements": "12 / 13",
+    "published": "2026-10-04",
+    "url": "reviews/Blanc.html",
     "featured": true
   }
 ]
