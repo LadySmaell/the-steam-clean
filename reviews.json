@@ -77,6 +77,16 @@
     "achievements": "12 / 13",
     "published": "2026-10-04",
     "url": "reviews/Blanc.html",
+    "featured": false
+  },
+     {
+    "title": "Blood Gauntlet",
+    "verdict": "Good",
+    "genre": "Co-Op Narrative Adventure",
+    "size": "Quick Clean",
+    "achievements": "4 / 7",
+    "published": "2026-10-04",
+    "url": "reviews/BloodGauntlet.html",
     "featured": true
   }
 ]
