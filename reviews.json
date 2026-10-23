@@ -82,11 +82,21 @@
      {
     "title": "Blood Gauntlet",
     "verdict": "Good",
-    "genre": "Co-Op Narrative Adventure",
+    "genre": "Platformer",
     "size": "Quick Clean",
     "achievements": "4 / 7",
     "published": "2026-10-04",
     "url": "reviews/BloodGauntlet.html",
+    "featured": false
+  },
+       {
+    "title": "Selfie Worm",
+    "verdict": "Good",
+    "genre":"Physics based, Narrative Adventure",
+    "size": "Quick Clean",
+    "achievements": "20 / 23",
+    "published": "2026-10-04",
+    "url": "reviews/Selfieworm.html",
     "featured": true
   }
 ]
