@@ -4036,9 +4036,9 @@
   },
   {
     "name": "Gravity Circuit",
-    "achievements": "10/53",
-    "achievementPercentage": 0.1886,
-    "completed": false,
+    "achievements": "18/53",
+    "achievementPercentage": 0.3396,
+    "completed": true,
     "completionNote": "",
     "mainStoryHours": 5.0,
     "mainExtrasHours": 6.5,
@@ -11101,8 +11101,8 @@
   },
   {
     "name": "Unpacking",
-    "achievements": "0/25",
-    "achievementPercentage": 0,
+    "achievements": "12/25",
+    "achievementPercentage": 0.48,
     "completed": false,
     "completionNote": "",
     "mainStoryHours": 3.5,
@@ -11230,7 +11230,7 @@
     "completionistHours": 58.0,
     "recommendedHours": 16.5,
     "size": "Medium Clean",
-    "type": "Story",
+    "type": "Roguelike",
     "research": "Not researched",
     "source": "https://howlongtobeat.com/"
   },
