@@ -5429,6 +5429,21 @@
     "research": "Researched",
     "source": "https://howlongtobeat.com/"
   },
+    {
+    "name": "Like a Dragon: Pirate Yakuza in Hawaii",
+    "achievements": "0/62",
+    "achievementPercentage": 0,
+    "completed": false,
+    "completionNote": "",
+    "mainStoryHours": 17.5,
+    "mainExtrasHours": 32.5,
+    "completionistHours": 44,
+    "recommendedHours": 32.5,
+    "size": "Deep Clean",
+    "type": "Story",
+    "research": "Researched",
+    "source": "https://howlongtobeat.com/"
+  },
   {
     "name": "Like a Dragon Gaiden: The Man Who Erased His Name",
     "achievements": "0/62",
@@ -7765,6 +7780,21 @@
     "completionistHours": 2.5,
     "recommendedHours": 2.5,
     "size": "Quick Clean",
+    "type": "Story",
+    "research": "Not researched",
+    "source": "https://howlongtobeat.com/"
+  },
+    {
+    "name": "Prince Of Persia: The Lost Crown",
+    "achievements": "0/40",
+    "achievementPercentage": 0,
+    "completed": false,
+    "completionNote": "",
+    "mainStoryHours": 16.5,
+    "mainExtrasHours": 24.5,
+    "completionistHours": 31,
+    "recommendedHours": 7.0,
+    "size": "Medium Clean",
     "type": "Story",
     "research": "Not researched",
     "source": "https://howlongtobeat.com/"
