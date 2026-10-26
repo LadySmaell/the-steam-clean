@@ -434,6 +434,21 @@
     "research": "Researched",
     "source": "https://howlongtobeat.com/"
   },
+    {
+    "name": "Asgard's Fall - Viking Survivors",
+    "achievements": "0/45",
+    "achievementPercentage": 0,
+    "completed": false,
+    "completionNote": "",
+    "mainStoryHours": 1.5,
+    "mainExtrasHours": 22.5,
+    "completionistHours": 22.5,
+    "recommendedHours": 61.0,
+    "size": "Medium Clean",
+    "type": "Roguelike",
+    "research": "Researched",
+    "source": "https://howlongtobeat.com/"
+  },
   {
     "name": "Assassin's Creed Valhalla",
     "achievements": "0/92",
@@ -11005,6 +11020,21 @@
     "completionistHours": 72.5,
     "recommendedHours": 45.0,
     "size": "Big Clean",
+    "type": "Strategy/Simulation",
+    "research": "Not researched",
+    "source": "https://howlongtobeat.com/"
+  },
+    {
+    "name": "Toy Shire",
+    "achievements": "0/42",
+    "achievementPercentage": 0,
+    "completed": false,
+    "completionNote": "",
+    "mainStoryHours": 6.0,
+    "mainExtrasHours": 24.0,
+    "completionistHours": 24.0,
+    "recommendedHours": 45.0,
+    "size": "Medium Clean",
     "type": "Strategy/Simulation",
     "research": "Not researched",
     "source": "https://howlongtobeat.com/"
