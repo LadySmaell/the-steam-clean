@@ -2849,6 +2849,21 @@
     "research": "Researched",
     "source": "https://howlongtobeat.com/"
   },
+    {
+    "name": "Dungeons & Degenerate Gamblers",
+    "achievements": "0/39",
+    "achievementPercentage": 0,
+    "completed": false,
+    "completionNote": "",
+    "mainStoryHours": 5.0,
+    "mainExtrasHours": 14.0,
+    "completionistHours": 12.0,
+    "recommendedHours": 40.5,
+    "size": "Weekend Clean",
+    "type": "Roguelike",
+    "research": "Researched",
+    "source": "https://howlongtobeat.com/"
+  },
   {
     "name": "Dungeon Tycoon",
     "achievements": "0/29",
