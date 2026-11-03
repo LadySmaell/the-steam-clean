@@ -97,6 +97,16 @@
     "achievements": "20 / 23",
     "published": "2026-10-04",
     "url": "reviews/Selfieworm.html",
+    "featured": false
+  },
+         {
+    "title": "Resident Evil 8",
+    "verdict": "Recommended",
+    "genre":"Survival Horror",
+    "size": "Weekend Clean",
+    "achievements": "20 / 56",
+    "published": "2026-10-30",
+    "url": "reviews/ResidentEvil8.html",
     "featured": true
-  }
+         }
 ]
