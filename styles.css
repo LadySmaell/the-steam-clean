@@ -777,22 +777,7 @@ margin-top: 0;
   gap: 1.5rem;
 }
 
-.pumpkin {
-  font-size: 3rem;
-}
-    body::after {
-  content: "🦇";
-  position: fixed;
-  top: 20%;
-  left: -50px;
-  animation: fly 15s linear infinite;
-  font-size: 2rem;
-}
 
-@keyframes fly {
-  from { left: -50px; }
-  to { left: 110%; }
-}
 .seasonal-tag {
     display: inline-flex;
     align-items: center;
