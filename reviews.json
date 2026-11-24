@@ -107,6 +107,16 @@
     "achievements": "20 / 56",
     "published": "2026-10-30",
     "url": "reviews/ResidentEvil8.html",
+    "featured": false
+  },
+         {
+    "title": "Rock of Ages 3: Make or Break",
+    "verdict": "Recommended",
+    "genre":"Physics Platformere/Tower Defence",
+    "size": "Weekend Clean",
+    "achievements": "8 / 21",
+    "published": "2026-11-24",
+    "url": "reviews/RockofAges3.html",
     "featured": true
          }
 ]
